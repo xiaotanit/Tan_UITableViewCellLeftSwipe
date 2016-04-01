@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF157521CA772C000ACC486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF157511CA772C000ACC486 /* main.m */; };
+		EDF157551CA772C000ACC486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF157541CA772C000ACC486 /* AppDelegate.m */; };
+		EDF157581CA772C000ACC486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF157571CA772C000ACC486 /* ViewController.m */; };
+		EDF1575B1CA772C000ACC486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF157591CA772C000ACC486 /* Main.storyboard */; };
+		EDF1575D1CA772C000ACC486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF1575C1CA772C000ACC486 /* Assets.xcassets */; };
+		EDF157601CA772C000ACC486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF1575E1CA772C000ACC486 /* LaunchScreen.storyboard */; };
+		EDF1576D1CA7731300ACC486 /* MemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1576C1CA7731300ACC486 /* MemberModel.m */; };
+		EDF157701CA7732600ACC486 /* TanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1576F1CA7732600ACC486 /* TanTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDF1574D1CA772C000ACC486 /* Tan_PanTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tan_PanTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF157511CA772C000ACC486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF157531CA772C000ACC486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF157541CA772C000ACC486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF157561CA772C000ACC486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF157571CA772C000ACC486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF1575A1CA772C000ACC486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF1575C1CA772C000ACC486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF1575F1CA772C000ACC486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF157611CA772C000ACC486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF1576B1CA7731300ACC486 /* MemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberModel.h; sourceTree = "<group>"; };
+		EDF1576C1CA7731300ACC486 /* MemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberModel.m; sourceTree = "<group>"; };
+		EDF1576E1CA7732600ACC486 /* TanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanTableViewCell.h; sourceTree = "<group>"; };
+		EDF1576F1CA7732600ACC486 /* TanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF1574A1CA772C000ACC486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF157441CA772BF00ACC486 = {
+			isa = PBXGroup;
+			children = (
+				EDF1574F1CA772C000ACC486 /* Tan_PanTableViewCell */,
+				EDF1574E1CA772C000ACC486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF1574E1CA772C000ACC486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1574D1CA772C000ACC486 /* Tan_PanTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF1574F1CA772C000ACC486 /* Tan_PanTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1576A1CA772FE00ACC486 /* Model */,
+				EDF157691CA772F800ACC486 /* View */,
+				EDF157681CA772EA00ACC486 /* Controller */,
+				EDF157671CA772E100ACC486 /* Other */,
+				EDF157501CA772C000ACC486 /* Supporting Files */,
+			);
+			path = Tan_PanTableViewCell;
+			sourceTree = "<group>";
+		};
+		EDF157501CA772C000ACC486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157511CA772C000ACC486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF157671CA772E100ACC486 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157531CA772C000ACC486 /* AppDelegate.h */,
+				EDF157541CA772C000ACC486 /* AppDelegate.m */,
+				EDF157591CA772C000ACC486 /* Main.storyboard */,
+				EDF1575C1CA772C000ACC486 /* Assets.xcassets */,
+				EDF1575E1CA772C000ACC486 /* LaunchScreen.storyboard */,
+				EDF157611CA772C000ACC486 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EDF157681CA772EA00ACC486 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157561CA772C000ACC486 /* ViewController.h */,
+				EDF157571CA772C000ACC486 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EDF157691CA772F800ACC486 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1576E1CA7732600ACC486 /* TanTableViewCell.h */,
+				EDF1576F1CA7732600ACC486 /* TanTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EDF1576A1CA772FE00ACC486 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1576B1CA7731300ACC486 /* MemberModel.h */,
+				EDF1576C1CA7731300ACC486 /* MemberModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF1574C1CA772C000ACC486 /* Tan_PanTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF157641CA772C000ACC486 /* Build configuration list for PBXNativeTarget "Tan_PanTableViewCell" */;
+			buildPhases = (
+				EDF157491CA772C000ACC486 /* Sources */,
+				EDF1574A1CA772C000ACC486 /* Frameworks */,
+				EDF1574B1CA772C000ACC486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tan_PanTableViewCell;
+			productName = Tan_PanTableViewCell;
+			productReference = EDF1574D1CA772C000ACC486 /* Tan_PanTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF157451CA772BF00ACC486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PX_Mac;
+				TargetAttributes = {
+					EDF1574C1CA772C000ACC486 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EDF157481CA772BF00ACC486 /* Build configuration list for PBXProject "Tan_PanTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF157441CA772BF00ACC486;
+			productRefGroup = EDF1574E1CA772C000ACC486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF1574C1CA772C000ACC486 /* Tan_PanTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF1574B1CA772C000ACC486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF157601CA772C000ACC486 /* LaunchScreen.storyboard in Resources */,
+				EDF1575D1CA772C000ACC486 /* Assets.xcassets in Resources */,
+				EDF1575B1CA772C000ACC486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF157491CA772C000ACC486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF157701CA7732600ACC486 /* TanTableViewCell.m in Sources */,
+				EDF157581CA772C000ACC486 /* ViewController.m in Sources */,
+				EDF1576D1CA7731300ACC486 /* MemberModel.m in Sources */,
+				EDF157551CA772C000ACC486 /* AppDelegate.m in Sources */,
+				EDF157521CA772C000ACC486 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF157591CA772C000ACC486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF1575A1CA772C000ACC486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF1575E1CA772C000ACC486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF1575F1CA772C000ACC486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF157621CA772C000ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF157631CA772C000ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF157651CA772C000ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tan_PanTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-PanTableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF157661CA772C000ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tan_PanTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-PanTableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF157481CA772BF00ACC486 /* Build configuration list for PBXProject "Tan_PanTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF157621CA772C000ACC486 /* Debug */,
+				EDF157631CA772C000ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF157641CA772C000ACC486 /* Build configuration list for PBXNativeTarget "Tan_PanTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF157651CA772C000ACC486 /* Debug */,
+				EDF157661CA772C000ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF157451CA772BF00ACC486 /* Project object */;
+}

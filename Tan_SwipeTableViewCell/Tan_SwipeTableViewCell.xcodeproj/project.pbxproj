@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF157091CA57E6300ACC486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF157081CA57E6300ACC486 /* main.m */; };
+		EDF1570C1CA57E6300ACC486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1570B1CA57E6300ACC486 /* AppDelegate.m */; };
+		EDF1570F1CA57E6300ACC486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1570E1CA57E6300ACC486 /* ViewController.m */; };
+		EDF157121CA57E6300ACC486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF157101CA57E6300ACC486 /* Main.storyboard */; };
+		EDF157141CA57E6300ACC486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF157131CA57E6300ACC486 /* Assets.xcassets */; };
+		EDF157171CA57E6300ACC486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF157151CA57E6300ACC486 /* LaunchScreen.storyboard */; };
+		EDF1573C1CA57E9B00ACC486 /* TanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1573B1CA57E9B00ACC486 /* TanTableViewCell.m */; };
+		EDF157411CA6303400ACC486 /* MemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF157401CA6303400ACC486 /* MemberModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF1571E1CA57E6300ACC486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF156FC1CA57E6300ACC486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF157031CA57E6300ACC486;
+			remoteInfo = Tan_SwipeTableViewCell;
+		};
+		EDF157291CA57E6300ACC486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF156FC1CA57E6300ACC486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF157031CA57E6300ACC486;
+			remoteInfo = Tan_SwipeTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF157041CA57E6300ACC486 /* Tan_SwipeTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tan_SwipeTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF157081CA57E6300ACC486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF1570A1CA57E6300ACC486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF1570B1CA57E6300ACC486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF1570D1CA57E6300ACC486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF1570E1CA57E6300ACC486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF157111CA57E6300ACC486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF157131CA57E6300ACC486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF157161CA57E6300ACC486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF157181CA57E6300ACC486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF1571D1CA57E6300ACC486 /* Tan_SwipeTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tan_SwipeTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF157281CA57E6300ACC486 /* Tan_SwipeTableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tan_SwipeTableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF1573A1CA57E9B00ACC486 /* TanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanTableViewCell.h; sourceTree = "<group>"; };
+		EDF1573B1CA57E9B00ACC486 /* TanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanTableViewCell.m; sourceTree = "<group>"; };
+		EDF1573F1CA6303400ACC486 /* MemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberModel.h; sourceTree = "<group>"; };
+		EDF157401CA6303400ACC486 /* MemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF157011CA57E6300ACC486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF1571A1CA57E6300ACC486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF157251CA57E6300ACC486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF156FB1CA57E6300ACC486 = {
+			isa = PBXGroup;
+			children = (
+				EDF157061CA57E6300ACC486 /* Tan_SwipeTableViewCell */,
+				EDF157051CA57E6300ACC486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF157051CA57E6300ACC486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157041CA57E6300ACC486 /* Tan_SwipeTableViewCell.app */,
+				EDF1571D1CA57E6300ACC486 /* Tan_SwipeTableViewCellTests.xctest */,
+				EDF157281CA57E6300ACC486 /* Tan_SwipeTableViewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF157061CA57E6300ACC486 /* Tan_SwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157431CA7595200ACC486 /* Other */,
+				EDF157421CA630AF00ACC486 /* Controller */,
+				EDF1573E1CA6301100ACC486 /* Model */,
+				EDF1573D1CA6300A00ACC486 /* View */,
+				EDF157071CA57E6300ACC486 /* Supporting Files */,
+			);
+			path = Tan_SwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		EDF157071CA57E6300ACC486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF157081CA57E6300ACC486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF1573D1CA6300A00ACC486 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1573A1CA57E9B00ACC486 /* TanTableViewCell.h */,
+				EDF1573B1CA57E9B00ACC486 /* TanTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EDF1573E1CA6301100ACC486 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1573F1CA6303400ACC486 /* MemberModel.h */,
+				EDF157401CA6303400ACC486 /* MemberModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EDF157421CA630AF00ACC486 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1570D1CA57E6300ACC486 /* ViewController.h */,
+				EDF1570E1CA57E6300ACC486 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EDF157431CA7595200ACC486 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1570A1CA57E6300ACC486 /* AppDelegate.h */,
+				EDF1570B1CA57E6300ACC486 /* AppDelegate.m */,
+				EDF157101CA57E6300ACC486 /* Main.storyboard */,
+				EDF157131CA57E6300ACC486 /* Assets.xcassets */,
+				EDF157151CA57E6300ACC486 /* LaunchScreen.storyboard */,
+				EDF157181CA57E6300ACC486 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF157031CA57E6300ACC486 /* Tan_SwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF157311CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCell" */;
+			buildPhases = (
+				EDF157001CA57E6300ACC486 /* Sources */,
+				EDF157011CA57E6300ACC486 /* Frameworks */,
+				EDF157021CA57E6300ACC486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tan_SwipeTableViewCell;
+			productName = Tan_SwipeTableViewCell;
+			productReference = EDF157041CA57E6300ACC486 /* Tan_SwipeTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF1571C1CA57E6300ACC486 /* Tan_SwipeTableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF157341CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCellTests" */;
+			buildPhases = (
+				EDF157191CA57E6300ACC486 /* Sources */,
+				EDF1571A1CA57E6300ACC486 /* Frameworks */,
+				EDF1571B1CA57E6300ACC486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF1571F1CA57E6300ACC486 /* PBXTargetDependency */,
+			);
+			name = Tan_SwipeTableViewCellTests;
+			productName = Tan_SwipeTableViewCellTests;
+			productReference = EDF1571D1CA57E6300ACC486 /* Tan_SwipeTableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF157271CA57E6300ACC486 /* Tan_SwipeTableViewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF157371CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCellUITests" */;
+			buildPhases = (
+				EDF157241CA57E6300ACC486 /* Sources */,
+				EDF157251CA57E6300ACC486 /* Frameworks */,
+				EDF157261CA57E6300ACC486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF1572A1CA57E6300ACC486 /* PBXTargetDependency */,
+			);
+			name = Tan_SwipeTableViewCellUITests;
+			productName = Tan_SwipeTableViewCellUITests;
+			productReference = EDF157281CA57E6300ACC486 /* Tan_SwipeTableViewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF156FC1CA57E6300ACC486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PX_Mac;
+				TargetAttributes = {
+					EDF157031CA57E6300ACC486 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EDF1571C1CA57E6300ACC486 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDF157031CA57E6300ACC486;
+					};
+					EDF157271CA57E6300ACC486 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDF157031CA57E6300ACC486;
+					};
+				};
+			};
+			buildConfigurationList = EDF156FF1CA57E6300ACC486 /* Build configuration list for PBXProject "Tan_SwipeTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF156FB1CA57E6300ACC486;
+			productRefGroup = EDF157051CA57E6300ACC486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF157031CA57E6300ACC486 /* Tan_SwipeTableViewCell */,
+				EDF1571C1CA57E6300ACC486 /* Tan_SwipeTableViewCellTests */,
+				EDF157271CA57E6300ACC486 /* Tan_SwipeTableViewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF157021CA57E6300ACC486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF157171CA57E6300ACC486 /* LaunchScreen.storyboard in Resources */,
+				EDF157141CA57E6300ACC486 /* Assets.xcassets in Resources */,
+				EDF157121CA57E6300ACC486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF1571B1CA57E6300ACC486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF157261CA57E6300ACC486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF157001CA57E6300ACC486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF1570F1CA57E6300ACC486 /* ViewController.m in Sources */,
+				EDF1570C1CA57E6300ACC486 /* AppDelegate.m in Sources */,
+				EDF157091CA57E6300ACC486 /* main.m in Sources */,
+				EDF157411CA6303400ACC486 /* MemberModel.m in Sources */,
+				EDF1573C1CA57E9B00ACC486 /* TanTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF157191CA57E6300ACC486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF157241CA57E6300ACC486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF1571F1CA57E6300ACC486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF157031CA57E6300ACC486 /* Tan_SwipeTableViewCell */;
+			targetProxy = EDF1571E1CA57E6300ACC486 /* PBXContainerItemProxy */;
+		};
+		EDF1572A1CA57E6300ACC486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF157031CA57E6300ACC486 /* Tan_SwipeTableViewCell */;
+			targetProxy = EDF157291CA57E6300ACC486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF157101CA57E6300ACC486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF157111CA57E6300ACC486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF157151CA57E6300ACC486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF157161CA57E6300ACC486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF1572F1CA57E6300ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF157301CA57E6300ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF157321CA57E6300ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tan_SwipeTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF157331CA57E6300ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tan_SwipeTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDF157351CA57E6300ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tan_SwipeTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tan_SwipeTableViewCell.app/Tan_SwipeTableViewCell";
+			};
+			name = Debug;
+		};
+		EDF157361CA57E6300ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tan_SwipeTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tan_SwipeTableViewCell.app/Tan_SwipeTableViewCell";
+			};
+			name = Release;
+		};
+		EDF157381CA57E6300ACC486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tan_SwipeTableViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tan_SwipeTableViewCell;
+			};
+			name = Debug;
+		};
+		EDF157391CA57E6300ACC486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tan_SwipeTableViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xindongai.Tan-SwipeTableViewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tan_SwipeTableViewCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF156FF1CA57E6300ACC486 /* Build configuration list for PBXProject "Tan_SwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF1572F1CA57E6300ACC486 /* Debug */,
+				EDF157301CA57E6300ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF157311CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF157321CA57E6300ACC486 /* Debug */,
+				EDF157331CA57E6300ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF157341CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF157351CA57E6300ACC486 /* Debug */,
+				EDF157361CA57E6300ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF157371CA57E6300ACC486 /* Build configuration list for PBXNativeTarget "Tan_SwipeTableViewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF157381CA57E6300ACC486 /* Debug */,
+				EDF157391CA57E6300ACC486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF156FC1CA57E6300ACC486 /* Project object */;
+}
